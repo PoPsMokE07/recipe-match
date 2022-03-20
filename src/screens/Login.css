@@ -1,0 +1,27 @@
+.container{
+    /* background-color: aqua; */
+}
+.login-logo{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+.login-container1{
+    height: fit-content;
+    width: fit-content;
+   
+}
+.login-navbar{
+    background-color: #efe8db;  
+} 
+.login-button{
+    background-color: #3F3D56;
+    color: aliceblue;
+}
+.login-strong{
+    color: aliceblue;
+}
+.login-italic{
+    font-style: italic ;
+}

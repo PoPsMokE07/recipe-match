@@ -1,0 +1,19 @@
+
+.descriptionContainer{
+
+    float: left;
+    
+    }
+    
+    .description{
+    
+    margin-left: 1rem
+    
+    }
+    .check{
+    transform: scale(1.5);
+    }
+    .box{
+        margin-top: 2.5rem;
+    
+    }

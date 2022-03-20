@@ -1,0 +1,48 @@
+.pantry-level{
+    margin-top: 0%;
+}
+.pantry-column{
+    align-items: center;
+    flex-direction: columns;
+   
+    justify-items: center;
+   
+}
+.pantry-image{
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: auto;
+  width: 350px;
+  
+}
+.pantry-addItem-button{
+    background-color: #3F3D56;
+    color: aliceblue;
+}
+.pantry-add{
+    margin-top: 2%;
+}
+.pantry-generate{
+    margin-top: 1%;
+}
+.pantry-button{
+    background-color: #F9A826;
+    color: aliceblue;
+}
+.pantry-strong{
+    background-color: #F9A826;
+}
+.pantry-viewRecipe{
+    margin-right: 1%;
+}
+.pantry-buttonRecipe{
+    background-color: #F9A826;
+}
+.pantry-imgRecipe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 350px;
+}
