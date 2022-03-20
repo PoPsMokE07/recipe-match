@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Inspiration!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As college students, food is always something that is on the top of our minds. Maybe its because of stress, or a new lifestyle but we always seem to be thinking about **FOOD!!**
 
-## Available Scripts
+However, as a college student, it can be difficult to think of recipes for healthy, tasty meals.
 
-In the project directory, you can run:
+Cooking requires a significant time and effort in and outside of the kitchen (the planning that precedes before the actual act of cooking tends to be longer and tedious)
 
-### `npm start`
+And with our busy academics and extracurriculars, we dont have time to browse Google to look for recipes that we *hopefully* have ingredients for.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In addition, it can be hard to keep track of all the food/ingredients we have hoard in our drawers or kitchen cabinets.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+That's why we created **Recipe Match**
 
-### `npm test`
+A web application that **helps match ingredients with recipes you will **LOVE****
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# What it does
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Recipe Match allows you to store and keep track of all the food that you have in your pantry. All you have to do is go on the app, sign in with your **Google** account, and add your ingredients/food. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once your pantry is created, you have the option to create recipes for meals from ingredients/foods of your choosing.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once you have selected the ingredients you want, just click "**Generate Recipe**" and a recipe for a delicious meal will generated.
 
-### `npm run eject`
+## How we built it
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app was built using **React.js**(a javascript framework)**, and Bulma**(a CSS framework)**** 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For backend server-side functionality, Google's cloud platform, **Firebase** was used.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ - **Authentication:** "Sign-in with Google Authentication" - provided by Firebase
+ - **Realtime Database:** Storing user accounts and associated pantry data
+ 
+ To generate recipes from provided ingredients/foods, we used the **Edamam "Recipe Search API"** 
+ 
+[Edamam API](https://developer.edamam.com/edamam-recipe-api)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[App/Data Visualization](!%5BData%20Visualization%5D%28https://photos.app.goo.gl/QHdY9EyoFSzNThrK6%29)
 
-## Learn More
+## Challenges we ran into
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Learning a new technology:**
+This project was our first time using the Google Cloud Platform, specifically: **Firebase**. There were multiple points throughout the project where we were struggling with the Firebase SDK which prevented us from moving forward.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+However, Google has provided developers with great [documentation](https://firebase.google.com/docs?authuser=0&hl=en) regarding Firebase. As a result, we were able to overcome our challenges by understanding and implementing the documentation.
 
-### Code Splitting
+In the end, learning and using Firebase was fun and we cant wait to use it on future projects
+**Thanks Google!**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## ## Accomplishments that we're proud of
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Rishi Magiawala**: Full-stack developer
+"I was proud of learning a new technology(Firebase) and using that to build a robust application that has the potential to change the eating habits of college students and people who struggle with staying healthy"
 
-### Making a Progressive Web App
+**Suryangsu Chandra**: Learner/Mentee
+"I was proud of learning from Rishi about proper development methodologies and also how to combine front-end and back-end technologies to make one seamless web application"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Sudiksha Panda:** UI Designer/Mentee
+"I was proud of learning UI/UX design tools such as Figma to develop prototypes of the web app. It has really inspired to pursue a career in UX design.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## What we learned
 
-### `npm run build` fails to minify
+Through brainstorming the project idea, we learned how to be independent as a college student and the importance of a healthy diet. 
+Since most of us were first time hacker we learned using ReactJS, we learned about CSS, JavaScript, HTML. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Also, while integrating API we were able to grasp an understanding of JSON structure usage in the Web applications and asynchronous functions. 
+
+We made sure that the interface is user-friendly, simplifying every procedure to the best of our ability, through which we learned UI/UX feedback method.d
+
+## What's next for Recipe Match
+
+The team has a ton of ideas on what we can implement next. We hope to further develop the app and hopefully also release a mobile version of it as well.
+
+One idea we have is to use AI and image recognition as an easier way to enter items into a user's pantry without them having to manually type it in.
+
