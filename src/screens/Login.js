@@ -23,7 +23,7 @@ function Login(props) {
       
     
 
-      <a href='https://github.com/rishimagiawala/recipe-match' target='_blank' class="navbar-item">
+      <a href='https://github.com/PoPsMokE07/recipe-match' target='_blank' class="navbar-item">
         Documentation
       </a>
 

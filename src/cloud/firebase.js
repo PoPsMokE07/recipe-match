@@ -7,13 +7,13 @@ import { getDatabase, ref, onValue, set, get, child, update } from "firebase/dat
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyClO2TMdiia5B9TYcylQAGsV80ddjN-QUc",
-  authDomain: "recipe-match-b2d9f.firebaseapp.com",
-  projectId: "recipe-match-b2d9f",
-  storageBucket: "recipe-match-b2d9f.appspot.com",
-  messagingSenderId: "321339681074",
-  appId: "1:321339681074:web:30ddd70fefc28b7d580f2b",
-  databaseURL: "https://recipe-match-users.firebaseio.com/",
+  apiKey: "AIzaSyAj5Hm6DK8QS9oLEpJjBtq76PE7aNyMvS0",
+  authDomain: "recipe-match-6d179.firebaseapp.com",
+  databaseURL: "https://recipe-match-6d179-default-rtdb.firebaseio.com",
+  projectId: "recipe-match-6d179",
+  storageBucket: "recipe-match-6d179.appspot.com",
+  messagingSenderId: "470015672094",
+  appId: "1:470015672094:web:433a465a87bfc74101d30f"
 };
 
 // Initialize Firebase
